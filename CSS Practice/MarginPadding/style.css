@@ -1,0 +1,10 @@
+.MarginPadding p {
+    background-color: pink;
+    /* เว้นระยะห่างจากกล่องอีกกล่องใช้ margin */
+    margin-bottom: 40px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    /* padding สำหรับพื้นที่ด้านใน */
+    padding: 30px;
+}
