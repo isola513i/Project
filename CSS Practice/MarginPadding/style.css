@@ -1,3 +1,7 @@
+body{
+    margin: 0px;
+}
+
 .MarginPadding p {
     background-color: pink;
     /* เว้นระยะห่างจากกล่องอีกกล่องใช้ margin */
@@ -7,4 +11,35 @@
     margin-right: 20px;
     /* padding สำหรับพื้นที่ด้านใน */
     padding: 30px;
+    border: 3px solid black;
 }
+
+#box1 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: green;
+    /* margin left + margin right:auto = center */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box1 p {
+    padding: 10px 10px;
+}
+
+#box2 p {
+    padding:10px
+
+}
+
+#box2 {
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 22px;
+    background-color: maroon;
+    margin: 50px;
+}
+
