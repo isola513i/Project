@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab 14 FlexLayout</title>
+    <style>
+      #container {
+        width: 300px;
+        height: 600px;
+        display: grid;
+        grid-template-rows: [line1-start] 1fr [line2-start] 3fr [line4-start] 1fr [line6-start] 1fr [line7-start] 1fr;
+        grid-template-columns: [col1-start] 1fr [col2-start] 2fr [col3-start] 1fr;
+      }
+      .box {
+        border: 1px solid black;
+      }
+      #box1 {
+        grid-row: line1-start / line2-start;
+        background-color: purple;
+      }
+      #box2 {
+        grid-row: line2-start / line4-start;
+        background-color: white;
+      }
+      #box3 {
+        grid-row: line1-start / line4-start;
+        grid-column: col2-start / col4-start;
+        background-color: red;
+      }
+      #box4 {
+        grid-row: line4-start / line7-start;
+        grid-column: col1-start;
+        background-color: blue;
+      }
+      #box5 {
+        grid-row: line4-start / line7-start;
+        background-color: green;
+      }
+      #box6 {
+        grid-row: line4-start / line6-start;
+        grid-column: col3-start;
+        background-color: cyan;
+      }
+      #box7 {
+        grid-row: line6-start / line7-start;
+        grid-column: col3-start;
+        background-color: yellow;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="container">
+      <div id="box1" class="box">1</div>
+      <div id="box2" class="box">2</div>
+      <div id="box3" class="box">3</div>
+      <div id="box4" class="box">4</div>
+      <div id="box5" class="box">5</div>
+      <div id="box6" class="box">6</div>
+      <div id="box7" class="box">7</div>
+    </div>
+  </body>
+</html>
