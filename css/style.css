@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #232527;
+  font-family: HCo Gotham SSm, Helvetica Neue, Helvetica, Arial, Lucida Grande,
+    sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+  height: 100%;
+  overflow-y: scroll;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  background-color: #191b1d;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.nav-con { 
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  line-height: 20px;
+}
+
+.logo {
+  display: block;
+  background-image: url(https://images.rbxcdn.com/d82801b936c26e174c4e782510a72d78-roblox_logo_dark_08292022.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 118px;
+  height: 30px;
+  margin-left: 15px;
+  margin-right: 40px;
+  background-size: 118px 30px;
+  justify-content: center;
+}
+
+#icon1 {
+  background-image: url(https://images.rbxcdn.com/d935c70bed81f91538cca4b19eebd319-common_dark.svg);
+  background-position: 0 -84px;
+  background-repeat: no-repeat;
+  background-size: auto auto;
+  width: 28px;
+  height: 28px;
+  display: inline-block;
+  vertical-align:middle;
+  cursor: pointer;
+  
+}
+
+.icon-friend {
+  background-color: 0 -28px;
+  background-image: url(/res/icon_nav.svg);
+  background-repeat: no-repeat;
+  background-size: auto auto ;
+  width: 28px;
+  height: 28px;
+  display: block;
+}
+
+.menu li {
+  display: inline-block;
+  list-style: none;
+  margin-left: 1rem;
+  
+}
+
+.simple-bar {
+  direction: inherit;
+  box-sizing: border-box m !important;
+  position: relative;
+  display: block;
+  width: auto;
+  visibility: visible;
+  max-width: 100%;
+  max-height: 100%;
+
+
+#head1,
+#head2,
+#head3,
+#head4 {
+  display: inline-block;
+  width: 100%;
+  padding: 6px 9px;
+  user-select: none;
+}
+
+#head1:hover,
+#head2:hover,
+#head3:hover,
+#head4:hover {
+  border-bottom: solid 2px #fff;
+}
+
+@media screen and (max-width: 360px) {
+  .logo {
+    margin-bottom: 1rem;
+  }
+
+  .nav-con {
+    padding: 1rem 0;
+    flex-direction: column;
+    height: auto;
+  }
+
+  .menu li:hover {
+    overflow: hidden;
+    border-bottom: solid 2px #fff;
+  }
+}
+}
