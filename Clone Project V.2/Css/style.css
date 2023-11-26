@@ -34,11 +34,12 @@ a {
 
 .border {
     border: 1.5px solid transparent;
+    padding: 5px;
 }
 
 .border:hover {
     border: 1.5px solid #fff;
-    padding: 5px;
+    
     
 }
 
@@ -399,4 +400,60 @@ ul a {
     color: inherit;
     padding: 0 8px;
     outline: 0;
+}
+
+/* Registry Body */
+
+.registry-body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: -1;
+}
+
+.registry-container {
+    width: 100%;
+    max-width: 1500px;
+    text-align: center;
+}
+
+.registry-landing {
+    min-width: 1024;
+}
+
+.registry-body-header {
+    margin-bottom: 22px;
+}
+
+.registry_header_image {
+    object-fit: cover;
+    width: 1500px;
+    height: 300px;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    border: 0;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+div {
+    display: block;
+}
+
+.unwrap-joyful {
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    border-radius: 16px 16px 0 0;
+}
+
+.unwrap-joyful-heading {
+    text-align: center;
+    background-color: #fff;
+    width: 710px;
+    margin: 0 auto;
 }
