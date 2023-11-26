@@ -350,3 +350,53 @@ ul a {
     padding-top: 5px;
     
 }
+
+/* Registy pages */
+
+.sub-nav {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    height: 65px;
+    line-height: 65px;
+    padding-right: 16px;
+    background-color: #fff;
+    margin-bottom: 3px;
+}
+
+.sub-nav-registy {
+    margin-left: 65px;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #064f70;
+}
+
+.subnav-base {
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: 400;
+
+}
+
+.subnav-container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: row;
+    flex-grow: 1;
+    z-index: 50;
+    
+}
+
+.subnav-item {
+    display: flex;
+    justify-content: center;
+    box-sizing: content-box;
+    height: 64px;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 8px;
+    outline: 0;
+}
