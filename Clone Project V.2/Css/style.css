@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Amazon Ember",Arial,sans-serif
+    font-family: "Amazon Ember", Arial, sans-serif
 }
 
 a {
@@ -21,6 +21,7 @@ body {
 }
 
 html {
+    font-size: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
@@ -30,15 +31,24 @@ h1 {
     line-height: 36px;
 }
 
-h1,h2 {
+h1,
+h2 {
     padding-bottom: 4px;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     padding: 0;
     margin: 0;
 }
@@ -53,11 +63,94 @@ h1 {
     font-weight: bold;
 }
 
+input {
+    text-align: left;
+    padding-left: 10px;
+
+}
+
+option {
+    text-align: left;
+}
+
+span {
+    font-size: 0.7rem;
+}
+
+footer {
+    margin-top: 10px;
+
+}
+
+ul {
+    margin-top: 20px;
+}
+
+ul p {
+    font-weight: 700;
+}
+
+ul a {
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    font-size: 0.85rem;
+    margin-top: 10px;
+}
+
+img {
+    vertical-align: top;
+    max-width: 100%;
+    border: 0;
+    overflow: clip;
+    overflow-clip-margin: content-box;
+}
+
+input {
+    transition: all .1s linear;
+    color: #0F1111;
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+    font-family: inherit;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    cursor: text;
+}
+
+input[type="text" i] {
+    writing-mode: horizontal-tb !important;
+    padding-block: 1px;
+    padding-inline: 2px;
+}
+
+form {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 14px;
+}
+
+button, input, select, textarea {
+    margin: 0;
+    font-size: 100%;
+    vertical-align: middle;
+}
+
+/* Index Pages1 */
+
 .navbar {
     height: 60px;
     background-color: #0f1111;
     color: #fff;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
@@ -72,7 +165,6 @@ h1 {
     background-size: cover;
     height: 50px;
     width: 100%;
-    
 }
 
 .border {
@@ -82,8 +174,6 @@ h1 {
 
 .border:hover {
     border: 1.5px solid #fff;
-    
-    
 }
 
 /* box 2 */
@@ -115,12 +205,6 @@ h1 {
     border: none;
 }
 
-input {
-    text-align: left;
-    padding-left: 10px;
-    
-}
-
 .search-select {
     background-color: #f3f3f3;
     width: 50px;
@@ -129,6 +213,7 @@ input {
     border-top-left-radius: 4px;
     border-bottom-left-radius: 4px;
     border: none;
+    cursor: pointer;
 }
 
 .search-input {
@@ -153,19 +238,11 @@ input {
     border: 2px solid orange;
 }
 
-option {
-    text-align: left;
-}
-
 .First {
     text-align: center;
 }
 
 /* Box 4 */
-
-span {
-    font-size: 0.7rem;
-}
 
 .nav-second {
     font-size: 0.85rem;
@@ -192,7 +269,7 @@ span {
     color: #fff;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .panel-ops p {
@@ -204,11 +281,17 @@ span {
     width: 70%;
     font-weight: 650;
     font-size: 0.85rem;
+    cursor: pointer;
 }
 
 .panel-deals {
     font-size: 0.9rem;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.panel-all {
+    cursor: pointer;
 }
 
 /* hero section */
@@ -246,7 +329,7 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color:#e2e7e6;
+    background-color: #e2e7e6;
 }
 
 .box {
@@ -277,46 +360,31 @@ span {
 
 .box p {
     cursor: pointer;
-    color: #007185;;
+    color: #007185;
+    ;
     font-size: 0.8rem;
 }
 
-.box p:hover{
+.box p:hover {
     color: #ff9100;
 }
 
-
 /* footer */
-
-footer {
-    margin-top: 10px;
-
-}
-
-#myBtn {
-    border: none;
-    outline: none;
-    background-color: #37475a;
-    color: #fff;
-    font-weight: 500;
-}
-
-#myBtn:hover {
-    cursor: pointer;
-    width: 100%;
-    background-color: rgb(255, 255, 255,0.15);
-    height: 100%;
-    
-}
 
 .foot-panel1 {
     background-color: #37475a;
-    color:white;
+    color: white;
     height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 0.85rem;
+}
+
+.foot-panel1:hover {
+    width: 100%;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.4)
 }
 
 .foot-panel2 {
@@ -327,26 +395,13 @@ footer {
     justify-content: space-evenly;
 }
 
-ul {
-    margin-top: 20px;
-}
-
-ul p {
-    font-weight: 700;
-}
-
-ul a {
-    display: block;
-    color: #dddddd;
-    text-decoration: none;
-    font-size: 0.85rem;
-    margin-top: 10px;
+.foot-panel2 a {
+    cursor: pointer;
 }
 
 .foot-panel2 ul a:hover {
     text-decoration: underline;
 }
-
 
 .foot-panel3 {
     background-color: #222f3d;
@@ -361,8 +416,25 @@ ul a {
 .logo {
     background-image: url(../Picture/amazon_logo.png);
     background-size: cover;
-    height: 50px;   
+    height: 50px;
     width: 100px;
+    cursor: pointer;
+}
+
+.nav-address {
+    cursor: pointer;
+}
+
+.nav-sigin {
+    cursor: pointer;
+}
+
+.nav-return {
+    cursor: pointer;
+}
+
+.nav-cart {
+    cursor: pointer;
 }
 
 .foot-panel4 {
@@ -377,7 +449,6 @@ ul a {
     display: block;
     color: #dddddd;
     text-decoration: none;
-    
 }
 
 .foot-panel4 a {
@@ -386,18 +457,17 @@ ul a {
 }
 
 .pages {
-   
     padding-top: 25px;
 }
 
 .copyright {
     padding-top: 5px;
-    
 }
 
-/* Registy pages */
+/* Registy Pages2 */
 
-.sub-nav {
+.registry-subnav {
+    position: sticky;
     display: flex;
     justify-content: space-between;
     vertical-align: middle;
@@ -409,7 +479,7 @@ ul a {
 }
 
 
-.sub-nav-registy {
+.subnav-registy2 {
     margin-left: 65px;
     margin-right: 16px;
     font-size: 18px;
@@ -417,7 +487,7 @@ ul a {
     color: #064f70;
 }
 
-.sub-nav-registy:hover {
+.subnav-registy2:hover {
     text-decoration: underline;
 }
 
@@ -427,7 +497,6 @@ ul a {
     overflow: hidden;
     text-overflow: ellipsis;
     font-weight: 400;
-
 }
 
 .subnav-container {
@@ -436,7 +505,6 @@ ul a {
     flex-direction: row;
     flex-grow: 1;
     z-index: 50;
-    
 }
 
 .subnav-item {
@@ -455,9 +523,9 @@ ul a {
     border-bottom: solid 3px black;
 }
 
-/* Registry Body */
+/* Registry Container*/
 
-.registry-body { 
+.registry-body {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -480,84 +548,13 @@ ul a {
 
 .img_container {
     position: relative;
-    margin-bottom: 0!important;
+    margin-bottom: 0 !important;
 }
 
 .registry_header_image {
     object-fit: cover;
     width: 1500px;
     height: 300px;
-}
-
-img {
-    vertical-align: top;
-    max-width: 100%;
-    border: 0;
-    overflow: clip;
-    overflow-clip-margin: content-box;
-}
-
-.unwrap-joyful {
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50%,0);
-    position: absolute;
-    border-radius: 16px 16px 0 0;
-}
-
-.unwrap-joyful-heading {
-    text-align: center;
-    background-color: #fff;
-    width: 710px;
-    display: flex;
-    justify-content: center;
-    
-}
-
-.unwrap-h1 {
-    padding-bottom: 0;
-    margin-top: 24px!important;
-    color: #0f1111;
-    text-rendering: optimizeLegibility;
-    font-size: 28px;
-    line-height: 36px;
-    font-weight: 700;
-    margin: 0;
-    padding: 0;
-}
-
-.weddings-content {
-    text-align: center;
-    background-color: #fff;
-    width: 710px;
-    margin: 0 auto;
-    margin-bottom: 16px;
-
-}
-
-.weddings-content-p {
-    width: 640px;
-    margin: 0 auto;
-    margin-top: 8px!important;
-    text-rendering: optimizeLegibility;
-    font-size: 18px!important;
-    line-height: 24px!important;
-    padding: 0;
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    text-align: center;
-
-}
-
-.unwrap-h1 {
-    padding-bottom: 0;
-}
-
-.border-content {
-    border:solid ;
 }
 
 .gr-find-stripe {
@@ -574,15 +571,15 @@ img {
     font-weight: 700!important;
     font-size: 20px;
     line-height: 1.4;
-    
 }
 
 .gr-find-stripe__form {
     display: flex;
-    gap: 12px; 
+    gap: 12px;
 }
 
-.gr-find-stripe__name,input[type=text] {
+.gr-find-stripe__name,
+input[type=text] {
     width: 300px;
     background-color: #fff;
     height: 31px;
@@ -590,39 +587,8 @@ img {
     line-height: normal;
     border: 1px solid #888C8C;
     border-radius: 4px;
-    box-shadow: 0 1px 2px rgba(15,17,17,.15) inset;
+    box-shadow: 0 1px 2px rgba(15, 17, 17, .15) inset;
     outline: 0;
-}
-
-input {
-    transition: all .1s linear;
-    color: #0F1111;
-    margin: 0;
-    font-size: 100%;
-    vertical-align: middle;
-    font-family: inherit;
-}
-
-input[type="text" i] {
-    writing-mode: horizontal-tb !important;
-    padding-block: 1px;
-    padding-inline: 2px;
-}
-
-input {
-    text-rendering: auto;
-    color: fieldtext;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    appearance: auto;
-    -webkit-rtl-ordering: logical;
-    cursor: text;
 }
 
 .find-center {
@@ -653,7 +619,7 @@ input {
 }
 
 .img-box-below-learn-about img {
-    vertical-align:top;
+    vertical-align: top;
     max-width: 100%;
     border: 0;
     overflow-clip-margin: content-box;
@@ -662,13 +628,13 @@ input {
 
 .img_below_text {
     color: #111;
-    box-shadow: rgba(0,0,0,.15) 2px 2px 2px;
+    box-shadow: rgba(0, 0, 0, .15) 2px 2px 2px;
     display: flex;
     height: 60px;
     justify-content: center;
     align-items: center;
-    font-size: 14px!important;
-    line-height: 20px!important;
+    font-size: 14px !important;
+    line-height: 20px !important;
     cursor: pointer;
 }
 
@@ -685,7 +651,7 @@ input {
     min-height: 1px;
     overflow: visible;
     width: 100%;
-    margin-top: 4px!important;
+    margin-top: 4px !important;
 }
 
 .Reasons {
@@ -695,13 +661,13 @@ input {
 }
 
 .Reasons-to-create {
-    margin-top: 24px!important;
-    margin-bottom: 24px!important;
-    color: #0F1111!important;
+    margin-top: 24px !important;
+    margin-bottom: 24px !important;
+    color: #0F1111 !important;
     text-rendering: optimizeLegibility;
-    font-size: 24px!important;
-    line-height: 32px!important;
-    font-weight: 700!important;
+    font-size: 24px !important;
+    line-height: 32px !important;
+    font-weight: 700 !important;
 }
 
 .benefits-section {
@@ -711,22 +677,351 @@ input {
     justify-content: center;
 }
 
- .benefits-card {
+.benefits-card {
     width: 220px;
     margin: 16px;
     margin-bottom: 22px;
 }
 
 .benefits-card-h1 {
-    margin-top: 12px!important;
+    margin-top: 12px !important;
     text-rendering: optimizeLegibility;
-    font-size: 18px!important;
-    line-height: 24px!important;
-    font-weight: 700!important;
+    font-size: 18px !important;
+    line-height: 24px !important;
+    font-weight: 700 !important;
 }
 
 .benefits-card-span {
-    font-size: 14px!important;
-    line-height: 20px!important;
+    font-size: 14px !important;
+    line-height: 20px !important;
     margin-bottom: 22px;
+}
+
+/* wedding_registy Pages3 */
+
+.wedding-subnav {
+    position: sticky;
+    top: 0;
+    display: flex;
+    height: 64px;
+    padding-right: 16px;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0,113,133,.2);
+    z-index: 12;
+}
+
+.wedding-subnav__logo {
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.weddingg-subnav_img {
+    vertical-align: top;
+    max-width: 100%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.wedding-subnav_container {
+    display: flex;
+    flex-grow: 1;
+    z-index: 10;
+}
+
+.wedding-subnav_group {
+    display: flex;
+    font-size: 17px;
+    z-index: 10;
+}
+
+.wedding-subnav-item {
+    display: flex;
+    align-items: center;
+    box-sizing: content-box;
+    height: 62px;
+    text-decoration: none;
+    color: inherit;
+    padding: 0 8px;
+    outline: 0;
+    white-space: nowrap;
+}
+
+.wedding-subnav-item:hover {
+    border: solid #007185;
+    border-width: 0 0 2px 0;
+    color: #007185;
+    background-color: rgba(0,113,133,.05);
+}
+
+.wedding-subnav-spacer {
+    display: block;
+    flex-grow: 1;
+}
+
+.wedding-subnav_group--secondary {
+    font-size: 15px;
+}
+
+.wedding {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wedding_container {
+    width: 100%;
+    max-width: 1500px;
+}
+
+.wedding-hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.wedding-hero_img {
+    width: 100%;
+    max-width: 1500px;
+    vertical-align: top;
+    border: 0;
+}
+
+.wedding-hero__container-alt {
+    position: relative;
+    text-align: center;
+}
+
+.wedding-hero__lockup-alt {
+    margin: 12px 0 20px 0;
+    width: auto;
+    font-size: 30px;
+    color: #111;
+}
+
+.wedding-hero__body-alt {
+    margin: 12px 0; 
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 1.5;
+}
+
+.wedding-hero_br {
+    display: none;
+}
+
+.wedding__primary__btn {
+    margin: 12px 0 20px 0;
+    padding: 8px 24px;
+    font-size: 16px;
+    display: inline-block;
+    border-radius: 100px;
+    padding: 9px 21px;
+    border: 3px solid #fcd200;
+    background-color: #ffd814;
+    font-size: 14px;
+    line-height: 1.25;
+    outline: 0;
+    transition: all .1s;
+    color: #0f1111;
+    text-decoration: none;
+}
+.wedding__primary__btn:hover {
+    background-color: #f7ca00;
+}
+
+.wedding-find-stripe {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: #eee;
+}
+
+.wedding-find-stripe__header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 12px;
+    min-width: 120px;
+    font-size: 17px;
+    color: #0f1111;
+}
+
+.wedding-find-stripe__form {
+    display: flex;
+    flex-shrink: 1;
+    width: 100%;
+    max-width: 350px;
+    margin: 0;
+}
+
+.wedding-find-stripe__input {
+    flex-grow: 1;
+    height: 36px;
+    border: 2px solid #00879f;
+    border-radius: 2px;
+    box-shadow: none;
+    transition: none;
+}
+
+.wedding-find-stripe__submit {
+    width: 36px;
+    height: 36px;
+    margin-left: 12px;
+    padding: 6px 3px;
+}
+
+.wedding-benefits {
+    text-align: center;
+}
+
+.wedding__header.wedding__header--sm {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 32px;
+}
+
+.wedding__header {
+    flex: 100%;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-weight: 700;
+    font-size: 48px;
+    text-align: center;
+    color: #0f1111;
+    line-height: normal;
+}
+
+.wedding-benefits>.wedding-benefits__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -24px;
+}
+
+.wedding-benefits>.wedding-benefits__container>.wedding-benefits__item {
+    margin: 32px;
+    flex: 1 auto;
+    width: calc(25% - 64px);
+    color: #0f1111;
+    line-height: 1.5;
+    letter-spacing: .02vw;
+    max-width: 225px;
+}
+
+.wedding-benefits>.wedding-benefits__container>.wedding-benefits__item a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.wedding-benefits>.wedding-benefits__container .wedding-benefits__img {
+    height: 48px;
+}
+
+.wedding-benefits>.wedding-benefits__container .wedding-benefits__header {
+    margin-top: 12px;
+    font-size: 17px;
+}
+
+.wedding-benefits>.wedding-benefits__container .wedding-benefits__body {
+    margin-top: 12px;
+    font-weight: 200;
+    font-size: 13px;
+}
+
+.wedding-benefits>.wedding-benefits__container .wedding-benefits__learn-more {
+    text-decoration: underline;
+}
+
+a.wedding__btn, button.wedding__btn {
+    display: inline-block;
+    border-radius: 100px;
+    padding: 9px 21px;
+    border: 3px solid #007185;
+    background-color: #007185;
+    font-size: 14px;
+    line-height: 1.25;
+    outline: 0;
+    transition: all .1s;
+    color: #fff;
+    text-decoration: none;
+}
+
+a.wedding__btn:focus, a.wedding__btn:hover, button.wedding__btn:focus, button.wedding__btn:hover {
+    border-color: #005b6c;
+    background-color: #005b6c;
+}
+
+.wedding__header {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    line-height: normal;
+    color: #0f1111;
+}
+
+.wedding-collections>.wedding-collections__container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: -12px;
+}
+
+.wedding-collections>.wedding-collections__container>.wedding-collections__item {
+    display: block;
+    position: relative;
+    margin: 16px;
+    flex: 1 auto;
+    width: calc(50% - 32px);
+    letter-spacing: .02vw;
+    max-width: 600px;
+}
+
+.wedding-collections>.wedding-collections__container .wedding-collections__header {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: #eee;
+    font-size: 17px;
+    color: #0f1111;
+}
+
+.wedding-collections>.wedding-collections__container .wedding-collections__header>.wedding-collections__explore {
+    margin-left: 8px;
+    padding-left: 12px;
+    border-left: 1px solid #bbb;
+}
+
+.wedding-arrow {
+    position: relative;
+    height: 16px;
+    margin: 4px 0 0 4px;
+}
+
+.wedding-arrow>.wedding-arrow__head {
+    position: absolute;
+    left: 0;
+    top: 1px;
+}
+
+.wedding-collections>.wedding-collections__container .wedding-collections__header>.wedding-arrow>.wedding-arrow__head:after {
+    border-color: #0f1111;
+    margin: 6px 0;
+    width: 6px;
+    height: 6px;
+}
+
+.wedding-arrow>.wedding-arrow__head:after {
+    content: "";
+    display: block;
+    height: 8px;
+    width: 8px;
+    margin-left: 6px;
+    border: solid #fff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
 }
