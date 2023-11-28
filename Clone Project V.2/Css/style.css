@@ -170,10 +170,12 @@ button, input, select, textarea {
 .border {
     border: 1.5px solid transparent;
     padding: 5px;
+    
 }
 
 .border:hover {
     border: 1.5px solid #fff;
+    border-radius: 2px;
 }
 
 /* box 2 */
