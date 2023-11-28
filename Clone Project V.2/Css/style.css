@@ -620,3 +620,103 @@ input {
     justify-content: center;
     padding:15px 0;
 }
+
+.Learn-about {
+    margin-top: 24px!important;
+    color: #0F1111!important;
+    text-rendering: optimizeLegibility;
+    font-size: 24px!important;
+    line-height: 32px!important;
+    font-weight: 700!important;
+}
+
+.section-below-learn-about {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+}
+
+.img-box-below-learn-about {
+    margin: 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img-box-below-learn-about img {
+    vertical-align:top;
+    max-width: 100%;
+    border: 0;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.img_below_text {
+    color: #111;
+    box-shadow: rgba(0,0,0,.15) 2px 2px 2px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px!important;
+    line-height: 20px!important;
+    cursor: pointer;
+}
+
+.give-family-section {
+    margin-bottom: 22px;
+    width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.give-family {
+    margin-right: 0;
+    float: right;
+    min-height: 1px;
+    overflow: visible;
+    width: 100%;
+    margin-top: 4px!important;
+}
+
+.Reasons {
+    display: flex;
+    padding: 0.3rem;
+    justify-content: center;
+}
+
+.Reasons-to-create {
+    margin-top: 24px!important;
+    margin-bottom: 24px!important;
+    color: #0F1111!important;
+    text-rendering: optimizeLegibility;
+    font-size: 24px!important;
+    line-height: 32px!important;
+    font-weight: 700!important;
+}
+
+.benefits-section {
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+ .benefits-card {
+    width: 220px;
+    margin: 16px;
+    margin-bottom: 22px;
+}
+
+.benefits-card-h1 {
+    margin-top: 12px!important;
+    text-rendering: optimizeLegibility;
+    font-size: 18px!important;
+    line-height: 24px!important;
+    font-weight: 700!important;
+}
+
+.benefits-card-span {
+    font-size: 14px!important;
+    line-height: 20px!important;
+    margin-bottom: 22px;
+}
