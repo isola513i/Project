@@ -408,12 +408,17 @@ ul a {
     margin-bottom: 3px;
 }
 
+
 .sub-nav-registy {
     margin-left: 65px;
     margin-right: 16px;
     font-size: 18px;
     font-weight: 700;
     color: #064f70;
+}
+
+.sub-nav-registy:hover {
+    text-decoration: underline;
 }
 
 .subnav-base {
@@ -443,6 +448,11 @@ ul a {
     color: inherit;
     padding: 0 8px;
     outline: 0;
+    cursor: pointer;
+}
+
+.subnav-item:hover {
+    border-bottom: solid 3px black;
 }
 
 /* Registry Body */
