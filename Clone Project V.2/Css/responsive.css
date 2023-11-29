@@ -1,0 +1,79 @@
+/********** 393 px **********/
+@media only screen and (max-width: 393px) {
+    /* Footer Responsive */
+     
+    /* Footer Responsive */
+
+
+    /* Reistry Pages */
+    .registry_header_image {
+        object-fit: cover;
+        height: 150px;
+    }
+
+    .registry-landing {
+        min-width: unset;
+    }
+
+    .Learn-about {
+        margin-top: 2.4rem !important;
+        font-size: 1.4rem !important;
+        line-height: 1.3 !important;
+        font-weight: 700 !important;
+        padding-bottom: .4rem;
+        display: block;
+        font-size: 2em;
+        padding: 3px;
+    }
+
+    .section-below-learn-about {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .img-box-below-learn-about {
+        flex-basis: 45%;
+        letter-spacing: .02vw;
+        margin: 8px;
+    }
+
+    .img-box-below-learn-about img {
+        width: 100%;
+    }
+
+    .img-give-family {
+        width: 100%;
+        height: auto;
+    }
+
+    .gr-find-stripe {
+        display: inline-block;
+        width: 100%;
+        flex-direction: column;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .gr-find-stripe__form {
+        width: 100%;
+        display: inline-block;
+    }
+
+    .benefits-section {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        text-align: center;
+    }
+
+    .benefits-card {
+        width: auto;
+    }
+
+    .benefits-card-span {
+        font-size: 1.5rem;
+    }
+
+    /* Reistry Pages */
+
+}
