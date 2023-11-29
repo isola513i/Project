@@ -183,6 +183,7 @@ textarea {
     background-size: cover;
     height: 50px;
     width: 100%;
+    
 }
 
 .border {
@@ -281,6 +282,10 @@ textarea {
 }
 
 /* panel */
+
+.nav-address-responsive {
+    display: none;
+}
 
 .panel {
     height: 40px;
@@ -499,7 +504,7 @@ textarea {
 }
 
 
-.subnav-registy2 {
+.subnav-registry2 {
     margin-left: 65px;
     margin-right: 16px;
     font-size: 18px;

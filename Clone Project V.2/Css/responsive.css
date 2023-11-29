@@ -4,6 +4,78 @@
 
 /********** 393 px **********/
 @media only screen and (max-width: 393px) {
+    /* Navbar Responsive */
+
+    .nav-sigin {
+        display: none;
+    }
+
+    .nav-search {
+        display: flex;
+        background-color: rgb(255, 248, 248);
+        width: 250px;
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        
+    }
+
+    .nav-cart {
+        display: none;
+    }
+    .nav-return {
+        display: none;
+    }
+
+    .nav-second {
+        display: none;
+    }
+
+    .panel-ops {
+        display: none;
+    }
+
+    .nav-address {
+        display: none;
+    }
+
+    .panel-all {
+        display: none;
+    }
+
+    .nav-address-responsive {
+        clear: both;
+        font-size: 13px;
+        display: inline-block;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+    }
+
+    .add-first {
+        color: #fff;
+    }
+
+    .fa-location-dot {
+        display: flex;
+        padding-left: 13px;
+    }
+
+    .nav-sigin {
+        flex-shrink: 0;
+        flex-flow: row nowrap;
+    }
+
+    .nav-search {
+       display: flex;
+    }
+
+    .panel-deals {
+        display: none;
+    }
+
+    /* Navbar Responsive */
 
     /* Footer Responsive */
     
@@ -168,6 +240,24 @@
 
 
     /* Reistry Pages */
+
+    .subnav-registry2 {
+        border: none;
+        margin-left: 16px
+    }
+
+    .subnav-item { 
+        display: none;
+    }
+
+    .subnav-item-responsive {
+        display: flex;
+        position: relative;
+        right: -170px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
     .registry_header_image {
         object-fit: cover;
         height: 150px;
@@ -205,7 +295,8 @@
 
     .img-give-family {
         width: 100%;
-        height: auto;
+        height: 100px;
+        
     }
 
     .gr-find-stripe {
