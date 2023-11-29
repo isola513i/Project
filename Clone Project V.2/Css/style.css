@@ -7,6 +7,10 @@
     font-family: "Amazon Ember", Arial, sans-serif
 }
 
+.responsive-footer {
+    display: none;
+}
+
 a {
     text-decoration: none;
     color: inherit;
