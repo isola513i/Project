@@ -503,6 +503,9 @@ textarea {
     margin-bottom: 3px;
 }
 
+.subnav-item-responsive {
+    display: none;
+}
 
 .subnav-registry2 {
     margin-left: 65px;
