@@ -2,7 +2,7 @@
 
 /********** 393 px **********/
 @media screen and (max-width: 393px) {
-    
+
     /* Navbar Responsive */
 
     .nav-sigin {
@@ -208,6 +208,10 @@
 
     /* Footer Responsive */
 
+    /* Index Pages */
+    
+    /* Index Pages */
+
     /* Reistry Pages */
 
     .subnav-registry2 {
@@ -308,11 +312,49 @@
         display: none;
     }
 
-    .wedding-benefits__container {
+    .wedding-hero__body-alt {
+        margin: calc(.025 * 480px);
+        font-size: 14px;
+    }
 
+    .wedding-find-stripe {
+        flex-wrap: wrap;
+    }
+
+    .wedding-find-stripe__header {
+        margin-bottom: 12px;
+        font-weight: 500;
+    }
+
+    .wedding__header.wedding__header--sm {
+        font-size: calc(23px + .6vw);
+        margin-top: calc(15px + 0.6vw);
+        margin-bottom: calc(17px + 1vw);
+    }
+
+    .wedding-benefits>.wedding-benefits__container {
+        justify-content: space-around;
+    }
+
+    .wedding-benefits>.wedding-benefits__container>.wedding-benefits__item {
+        margin: 4vw;
+        flex: 1 auto;
+        width: calc(50% - 8vw);
+    }
+
+    .wedding__header {
+        font-size: calc(23px + .6vw);
+        margin-top: calc(15px + 0.6vw);
+        margin-bottom: calc(17px + 1vw);
+    }
+
+    .wedding-collections>.wedding-collections__container>.wedding-collections__item {
+        width: 100%;
     }
 
     /* Wedding Pages */
 
 }
+
+
 /********** 393 px **********/
