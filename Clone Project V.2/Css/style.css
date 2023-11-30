@@ -1,10 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    font-family: "Amazon Ember", Arial, sans-serif
 }
 
 .responsive-footer {
@@ -24,29 +23,29 @@ body {
     color: #0F1111;
     font-size: 14px;
     line-height: 20px;
+    font-family: "Amazon Ember", Arial, sans-serif
 }
 
 html {
     font-size: 100%;
-    -webkit-text-size-adjust: 100%;
+    /* -webkit-text-size-adjust: 100%; */
 }
 
 h1 {
-    font-weight: 400;
     font-size: 28px;
     line-height: 36px;
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
 }
 
 h1,
 h2 {
     padding-bottom: 4px;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    text-rendering: optimizeLegibility;
 }
 
 h1,
@@ -59,20 +58,9 @@ h6 {
     margin: 0;
 }
 
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
 input {
     text-align: left;
     padding-left: 10px;
-
 }
 
 option {
@@ -89,6 +77,8 @@ footer {
 
 ul {
     display: block;
+    /* เป็นการกำหนดรูปแบบหรือลักษณะเครื่องหมายให้กับ List */
+    /* disc (default)	รูปวงกลมเต็ม */
     list-style-type: disc;
     margin-block-start: 1em;
     margin-block-end: 1em;
@@ -113,35 +103,19 @@ ul a {
 img {
     vertical-align: top;
     max-width: 100%;
+    /* Border 0 = ไม่เห็นเส้นของขอบตาราง */
     border: 0;
+    /* clip เป็นการตัดที่สิ้นสุดกล่อง คล้ายการใช้ overflow:hidden */
     overflow: clip;
-    overflow-clip-margin: content-box;
 }
 
 input {
-    transition: all .1s linear;
     color: #0F1111;
-    margin: 0;
     font-size: 100%;
     vertical-align: middle;
-    font-family: inherit;
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    line-height: normal;
-    text-transform: none;
-    text-indent: 0px;
-    text-shadow: none;
     display: inline-block;
     text-align: start;
-    appearance: auto;
     cursor: text;
-}
-
-input[type="text" i] {
-    writing-mode: horizontal-tb !important;
-    padding-block: 1px;
-    padding-inline: 2px;
 }
 
 form {
@@ -291,7 +265,6 @@ textarea {
     color: #fff;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .panel-ops p {
@@ -352,7 +325,6 @@ textarea {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #e2e7e6;
-
 }
 
 .box {
@@ -455,7 +427,7 @@ textarea {
     color: #fff;
     height: 80px;
     font-size: 0.7rem;
-    text-align: center;/
+    text-align: center;
 }
 
 .foot-panel4 ul a {
@@ -591,6 +563,7 @@ textarea {
 
 .gr-find-stripe__form {
     display: flex;
+    /* เป็นเหมือนการเว้นช่องไฟระหว่าง Element */
     gap: 12px;
 }
 
@@ -616,7 +589,6 @@ input[type=text] {
 .Learn-about {
     margin-top: 24px !important;
     color: #0F1111 !important;
-    text-rendering: optimizeLegibility;
     font-size: 24px !important;
     line-height: 32px !important;
     font-weight: 700 !important;
@@ -638,7 +610,6 @@ input[type=text] {
     vertical-align: top;
     max-width: 100%;
     border: 0;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
@@ -665,6 +636,7 @@ input[type=text] {
     margin-right: 0;
     float: right;
     min-height: 1px;
+    /* visble แสดงข้อมูลที่ต้องการทั้งหมด */
     overflow: visible;
     width: 100%;
     margin-top: 4px !important;
@@ -680,7 +652,6 @@ input[type=text] {
     margin-top: 24px !important;
     margin-bottom: 24px !important;
     color: #0F1111 !important;
-    text-rendering: optimizeLegibility;
     font-size: 24px !important;
     line-height: 32px !important;
     font-weight: 700 !important;
@@ -701,7 +672,6 @@ input[type=text] {
 
 .benefits-card-h1 {
     margin-top: 12px !important;
-    text-rendering: optimizeLegibility;
     font-size: 18px !important;
     line-height: 24px !important;
     font-weight: 700 !important;
@@ -723,6 +693,7 @@ input[type=text] {
     padding-right: 16px;
     background-color: #fff;
     border-bottom: 1px solid rgba(0, 113, 133, .2);
+    /* z-index ใช้สำหรับกำหนดลำดับของการแสดงแสงขององค์ประกอบ (element) บนหน้าเว็บ เมื่อมีองค์ประกอบหลายๆ องค์ประกอบที่ซ้อนกัน  */
     z-index: 12;
 }
 
@@ -736,7 +707,6 @@ input[type=text] {
     vertical-align: top;
     max-width: 100%;
     border: 0;
-    overflow-clip-margin: content-box;
     overflow: clip;
 }
 
@@ -761,6 +731,7 @@ input[type=text] {
     color: inherit;
     padding: 0 8px;
     outline: 0;
+    /* white-space: nowrap เป็นการกำหนดให้แสดงผลข้อความเพียงบรรทัดเดียว */
     white-space: nowrap;
 }
 
@@ -773,6 +744,7 @@ input[type=text] {
 
 .wedding-subnav-spacer {
     display: block;
+    /* flex-grow ใช้กำหนดขนาดของแต่ละ item ว่าให้ขยายขนาดเท่าไหร่ใน container เมื่อเทียบกับ items อื่นๆ  */
     flex-grow: 1;
 }
 
@@ -838,7 +810,6 @@ input[type=text] {
     font-size: 14px;
     line-height: 1.25;
     outline: 0;
-    transition: all .1s;
     color: #0f1111;
     text-decoration: none;
 }
@@ -866,6 +837,7 @@ input[type=text] {
 
 .wedding-find-stripe__form {
     display: flex;
+    /* flex-shrink ใช้กำหนดขนาดของแต่ละ item ว่าให้ย่อขนาดหรือหดตัวเท่าไหร่ใน container เมื่อเทียบกับ items อื่นๆ */
     flex-shrink: 1;
     width: 100%;
     max-width: 350px;
@@ -878,7 +850,6 @@ input[type=text] {
     border: 2px solid #00879f;
     border-radius: 2px;
     box-shadow: none;
-    transition: none;
 }
 
 .wedding-find-stripe__submit {
@@ -960,7 +931,6 @@ button.wedding__btn {
     font-size: 14px;
     line-height: 1.25;
     outline: 0;
-    transition: all .1s;
     color: #fff;
     text-decoration: none;
 }

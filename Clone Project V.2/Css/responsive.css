@@ -1,4 +1,4 @@
-@media screen and (max-width: 2560px) {}
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
 
 /********** 393 px **********/
 @media screen and (max-width: 393px) {
@@ -215,28 +215,28 @@
         justify-content: center;
         align-items: flex-end;
         background-position: 475px;
-      }
+    }
 
-      .hero-msg {
+    .hero-msg {
         height: 80px;
         flex-wrap: wrap;
         text-align: center;
-      }
+    }
 
-      .shop-section {
+    .shop-section {
         flex-direction: column;
         width: 100%;
         display: flex;
         padding: 0.85rem;
-      }
-      
-      .box {
+    }
+
+    .box {
         display: flex;
         flex-direction: column;
         width: 100%;
-      }
+    }
 
-      
+
 
     /* Index Pages */
 
@@ -383,6 +383,5 @@
     /* Wedding Pages */
 
 }
-
 
 /********** 393 px **********/
