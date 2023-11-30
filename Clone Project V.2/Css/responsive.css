@@ -209,7 +209,35 @@
     /* Footer Responsive */
 
     /* Index Pages */
-    
+
+    .hero-section {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        background-position: 475px;
+      }
+
+      .hero-msg {
+        height: 80px;
+        flex-wrap: wrap;
+        text-align: center;
+      }
+
+      .shop-section {
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+        padding: 0.85rem;
+      }
+      
+      .box {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+      }
+
+      
+
     /* Index Pages */
 
     /* Reistry Pages */
