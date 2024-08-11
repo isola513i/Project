@@ -1,0 +1,18 @@
+// ไม่จำเป็นต้องปิด ; 
+// ไวยากรณ์สำหรับการสร้างตัวแปร
+let 
+    let x = 5;
+const 
+    const y = 10;
+var 
+    var z = "Hello";
+
+// ไวยากรณ์สำหรับการสร้าง Function
+function greet(name){
+    return "Hello, " + name + "!";
+}
+------------------
+INLINE SCRIPT
+INTERNAL SCRIPT
+EXTERNAL SCRIPT
+-------------------
