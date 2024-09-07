@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        // foreach()
+        // const numbers = [1,2,3,4,5]
+        // numbers.forEach(function(numbers){
+        //     console.log(numbers);
+        // })
+
+
+        // const numbers = [1,2,3,4,5]
+        // const doubled = numbers.map(function(numbers){
+        //     return numbers * 2 
+            
+        // })
+        // console.log(doubled);
+
+
+        // const numbers = [1,2,3,4,5]
+        // const even = numbers.filter(function(numbers){
+        //     return numbers % 2 === 0;
+        // })
+        // console.log(even);
+           
+        // const numbers = [1,2,3,4,5]
+        // const sum = numbers.reduce(function(total,numbers){
+        //     console.log(total, numbers);
+        //     return total + numbers;
+        //     // 1 + 2 = 3
+        //     // 3 + 3 = 6
+        //     // 6 + 4 = 10
+        //     // 10 + 5 = 15
+        // }, 0) // 0 = ตั้งค่า default of total 
+        // console.log(sum);
+
+        // const numbers = [1,2,3,4,5]
+        // const hasEven = numbers.some(function(numbers){
+        //     return numbers % 2 === 0;
+        // })
+        // console.log(hasEven);
+
+        // const numbers = [-5,1,2,3,4,5]
+        // const allPositive = numbers.every(function(numbers){
+        //     return numbers  > 0
+        // })
+        // console.log(allPositive);
+        
+        // const numbers = [1,2,3,4,5]
+        // const firstEven = numbers.find(function(numbers){
+        //     return numbers % 2 === 0;
+        // })
+        // console.log(firstEven);
+
+        const numbers = [1,2,3,4,5]
+        const firstEvenIndex = numbers.findIndex(function(numbers){
+            return numbers % 2 === 0;
+        })
+        console.log(firstEvenIndex);
+    
+    </script>
+</body>
+</html>
